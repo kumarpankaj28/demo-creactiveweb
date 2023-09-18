@@ -10,6 +10,7 @@ import {
   FaTwitterSquare,
 } from 'react-icons/fa';
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -87,7 +88,7 @@ const Navbar = () => {
             <li className='p-4  text-3xl hover:text-[#df437e]'><a className="hover:border-b-4 border-transparent hover:border-[#df437e] transition duration-100" href="/location">LOCATIONS</a></li>
             <li className='p-4  text-3xl hover:text-[#df437e]'><a className="hover:border-b-4 border-transparent hover:border-[#df437e] transition duration-100" href="/contact">CONTACT US</a></li>
           </ul>
-          <div className=' hidden md:block flex flex-col pt-32 w-full h-full pl-32  items-right justify-left '>
+          <div className=' hidden md:block  flex-col pt-32 w-full h-full pl-32  items-right justify-left '>
             <h1 className='flex flex-col  text-2xl '>Visit Our Office</h1>
             <br />
             <h4 className='text-gray-500 '>1805, Haware Infotech Park, Vashi, Navi Mumbai - 400703<br /><br />
